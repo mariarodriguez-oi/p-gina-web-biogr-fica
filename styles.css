@@ -250,9 +250,17 @@ nav a:hover {
   }
 
   .hobbie-item img {
-    width: 130px;
-    height: 130px;
+    width: 340px;
+    height: 400px;
   }
+  .hobbie-item p {
+    text-align: center;
+  }
+  .hobbie-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 }
 
 
